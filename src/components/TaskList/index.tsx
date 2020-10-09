@@ -38,7 +38,6 @@ export default function TaskList({
         <span />
         <CheckCircleIcon className="tickIcon" />
         <div className="emptyListText">You have no tasks</div>
-        <div className="emptyListText">Sit back and relax</div>
       </div>
     );
   }

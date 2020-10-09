@@ -26,6 +26,7 @@ export default function Task(props: props) {
     }
   }
 
+  
   return (
     <div className={`list-item ${props!.task!.state}`}>
       <div className={"checkbox_Text"}>

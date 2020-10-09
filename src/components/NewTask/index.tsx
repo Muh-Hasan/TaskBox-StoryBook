@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/index";
-import '../main.css'
+import "../main.css";
 
 export interface props {
   handleSave: () => void;
