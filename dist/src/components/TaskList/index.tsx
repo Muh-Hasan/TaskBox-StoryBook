@@ -6,7 +6,7 @@ import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 
 import CircularProgress from "@material-ui/core/CircularProgress";
 
-import "../main.css";
+import "./main.css";
 
 
 

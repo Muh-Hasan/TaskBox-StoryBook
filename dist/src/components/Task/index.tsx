@@ -2,7 +2,7 @@ import React from "react";
 
 import StarIcon from "@material-ui/icons/Star";
 
-import "../main.css";
+import "./main.css";
 
 
 
@@ -54,7 +54,7 @@ export default function Task(props: props) {
 
 
 
-  
+
 
   return (
 

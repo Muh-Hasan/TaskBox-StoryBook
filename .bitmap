@@ -26,12 +26,17 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "muh-hasan.task-box/new-task@0.0.1": {
+    "muh-hasan.task-box/new-task@0.0.2": {
         "files": [
             {
                 "relativePath": "src/components/NewTask/index.tsx",
                 "test": false,
                 "name": "index.tsx"
+            },
+            {
+                "relativePath": "src/components/NewTask/main.css",
+                "test": false,
+                "name": "main.css"
             }
         ],
         "mainFile": "src/components/NewTask/index.tsx",
@@ -39,12 +44,17 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "muh-hasan.task-box/task-list@0.0.1": {
+    "muh-hasan.task-box/task-list@0.0.2": {
         "files": [
             {
                 "relativePath": "src/components/TaskList/index.tsx",
                 "test": false,
                 "name": "index.tsx"
+            },
+            {
+                "relativePath": "src/components/TaskList/main.css",
+                "test": false,
+                "name": "main.css"
             }
         ],
         "mainFile": "src/components/TaskList/index.tsx",
@@ -52,12 +62,17 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "muh-hasan.task-box/task@0.0.1": {
+    "muh-hasan.task-box/task@0.0.2": {
         "files": [
             {
                 "relativePath": "src/components/Task/index.tsx",
                 "test": false,
                 "name": "index.tsx"
+            },
+            {
+                "relativePath": "src/components/Task/main.css",
+                "test": false,
+                "name": "main.css"
             }
         ],
         "mainFile": "src/components/Task/index.tsx",
