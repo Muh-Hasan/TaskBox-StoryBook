@@ -10,7 +10,7 @@ export interface props {
   children: React.ReactNode;
 }
 
-export default function ButtonComponent({ children, ...rest }: props) {
+export default function ButtonComp({ children, ...rest }: props) {
   return (
     <Button className="button" {...rest}>
       {children}
@@ -18,9 +18,9 @@ export default function ButtonComponent({ children, ...rest }: props) {
   );
 }
 
-ButtonComponent.defaultProps = {
+ButtonComp.defaultProps = {
   onClick: () => {
-    console.log("button pressed");
+    console.log("pressed");
   },
   size: "medium",
   variant: "contained",
