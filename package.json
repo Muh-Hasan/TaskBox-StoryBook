@@ -50,5 +50,10 @@
     "@storybook/react": "^6.0.26",
     "babel-loader": "^8.1.0",
     "react-is": "^16.13.1"
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }
