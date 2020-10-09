@@ -37,6 +37,6 @@ NewTask.defaultProps = {
     console.log("saved");
   },
   handleCancel: () => {
-    console.log("saved");
+    console.log("cancel");
   },
 };
