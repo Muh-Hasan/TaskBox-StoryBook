@@ -1,5 +1,5 @@
 import React from "react";
-import Task, { task } from "../Task/Task";
+import Task, { task } from "../Task/index";
 import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import "./TaskList.css";
