@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/index";
-// import "./NewTask.css";
+import '../main.css'
 
 export interface props {
   handleSave: () => void;
@@ -34,9 +34,9 @@ export default function NewTask(props: props) {
 
 NewTask.defaultProps = {
   handleSave: () => {
-    console.log("task saved");
+    console.log("saved");
   },
   handleCancel: () => {
-    console.log("task not saved");
+    console.log("saved");
   },
 };
