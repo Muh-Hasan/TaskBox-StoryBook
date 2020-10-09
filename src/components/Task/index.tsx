@@ -1,6 +1,6 @@
 import React from "react";
 import StarIcon from "@material-ui/icons/Star";
-import "../main.css";
+import "./main.css";
 
 export interface task {
   id: string;
@@ -26,7 +26,7 @@ export default function Task(props: props) {
     }
   }
 
-  
+
   return (
     <div className={`list-item ${props!.task!.state}`}>
       <div className={"checkbox_Text"}>

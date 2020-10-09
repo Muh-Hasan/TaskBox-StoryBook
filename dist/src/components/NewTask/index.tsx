@@ -76,7 +76,7 @@ NewTask.defaultProps = {
 
   handleCancel: () => {
 
-    console.log("saved");
+    console.log("cancel");
 
   },
 
