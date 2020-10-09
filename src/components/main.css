@@ -84,12 +84,15 @@
 
 .starUnpinned {
   color: rgba(134, 133, 133, 0.5);
+  cursor: pointer;
 }
 
 .starUnpinned:hover {
+  cursor: pointer;
   color: rgb(0, 65, 77);
 }
 
 .starPinned {
+  cursor: pointer;
   color: rgb(0, 65, 77);
 }
