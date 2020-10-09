@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
 
+html{
+    background-color: #E0E0E0;
+}
 * {
   font-family: "Nunito", sans-serif;
   margin: 0;
@@ -17,9 +20,11 @@
 }
 
 .newTaskContainer .newTaskHeading {
-  font-size: 4vh;
-  margin-bottom: 15vh;
+  font-size: 7vh;
+  margin-bottom: 10vh;
   color: black;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .newTaskContainer input[type="text"] {
@@ -38,8 +43,8 @@
 }
 
 .newTaskContainer .buttonContainer Button {
-  width: 8vw;
-  height: 5vh;
+  width: 10vw;
+  height: 8vh;
 }
 
 .list-item {
