@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
 
-html{
-    background-color: #E0E0E0;
+html {
+  background-color: #fafafa;
 }
 * {
   font-family: "Nunito", sans-serif;
@@ -17,6 +17,8 @@ html{
   text-align: center;
   background-color: white;
   margin: 0 auto;
+  box-shadow: 5px 5px 20px #e0e0e0;
+  border-radius: 10px;
 }
 
 .newTaskContainer .newTaskHeading {
@@ -57,9 +59,9 @@ html{
   align-items: center;
   padding-left: 1vh;
   padding-right: 1vh;
-  border-style: solid;
-  border-color: rgb(102, 172, 205);
-  border-radius: 10px;
+  height: 40px;
+  box-shadow: 5px 5px 20px #e0e0e0;
+  margin-bottom: 2vh;
 }
 
 .list-item .checkbox_Text {
@@ -70,13 +72,15 @@ html{
 }
 .list-item .checkbox_Text p {
   width: 90%;
-  margin-left: 1vh;
+  margin-left: 2vh;
   text-overflow: ellipsis;
   font-size: 100%;
   overflow: hidden;
   font-weight: bold;
 }
-
+.list-item .checkbox_Text label {
+  margin-left: 2vh;
+}
 .list-item .checkbox_Text .archived {
   width: 90%;
   color: rgb(124, 124, 128);
@@ -94,12 +98,12 @@ html{
 
 .starUnpinned:hover {
   cursor: pointer;
-  color: rgb(0, 65, 77);
+  color: #616161;
 }
 
 .starPinned {
   cursor: pointer;
-  color: rgb(0, 65, 77);
+  color: #616161;
 }
 
 .emptyListWrapper {
@@ -109,7 +113,7 @@ html{
 
 .emptyListWrapper .tickIcon {
   transform: scale(3);
-  color: green;
+  color: #212121;
   margin-bottom: 5vh;
 }
 
